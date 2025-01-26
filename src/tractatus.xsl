@@ -19,16 +19,11 @@
       <p><xsl:apply-templates /></p>        
    </xsl:template>
    
-   <!-- <xsl:template match="lb">
-        <br><xsl:apply-templates select="@*|node()"/></br>
-        </xsl:template> -->
-   
    <xsl:template match="s">
       <sentence>
          <xsl:apply-templates select="@*|node()"/>
       </sentence>
    </xsl:template>
-
    
    <xsl:template match="@lemma | @pos">
      <xsl:attribute name="title">
@@ -40,12 +35,6 @@
        </xsl:for-each>
      </xsl:attribute>
    </xsl:template>
-
-   <!-- <xsl:template match="@pos"> -->
-   <!--   <xsl:attribute name="title"> -->
-   <!--     <xsl:value-of select="concat('pos: ', .)"/> -->
-   <!--   </xsl:attribute> -->
-   <!-- </xsl:template> -->
    
    <xsl:template match="div[@type='section']/head">
       <h3><xsl:apply-templates select="@*|node()"/></h3>
@@ -61,9 +50,7 @@
       </xsl:copy>
    </xsl:template>
    
-   <xsl:template match="teiHeader|front|sic|expan|back "/>
-   
-   <!-- <xsl:template match="sic"/> -->
+   <xsl:template match="teiHeader|front|corr|expan|back "/>
    
    <xsl:template match="pc[@type='hyphenation']"/>
    
