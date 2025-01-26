@@ -412,20 +412,20 @@
               <w lemma="syllogismus" pos="n-p---mg-"><choice><sic>sillogismorum</sic><corr>syllogismorum</corr></choice></w>
               <w lemma="produco" pos="v-p-g-fb-">producendis</w><pc type="period">.</pc>
             </s>
-            <s xml:id="lattb.14067.10">ç
-              <w lemma="unus" pos="a-s---nb-">Uno</w>
-              <w lemma="verbum" pos="n-s---nb-">verbo</w>
-              <w lemma="potius" pos="d-------p">potius</w>
-              <w lemma="grammatica" pos="n-s---fa-">Grammaticam</w>
-              <w lemma="philosophicus" pos="a-s---fa-"><choice><sic>Filosophicam</sic><corr>Philosophicam</corr></choice></w><pc type="comma">,</pc>
-              <w lemma="quam" pos="d--------">quam</w>
-              <w lemma="ars" pos="n-s---fa-">artem</w>
-              <w lemma="ratiocinor" pos="v-s-g-ng-">ratiocinandi</w>
-              <w lemma="edoceo" pos="v3sria---">edocuit</w><pc type="period">.</pc>
+            <s xml:id="lattb.14067.10">
+            <w lemma="unus" pos="a-s---nb-">Uno</w>
+            <w lemma="verbum" pos="n-s---nb-">verbo</w>
+            <w lemma="potius" pos="d-------p">potius</w>
+            <w lemma="grammatica" pos="n-s---fa-">Grammaticam</w>
+            <w lemma="philosophicus" pos="a-s---fa-"><choice><sic>Filosophicam</sic><corr>Philosophicam</corr></choice></w><pc type="comma">,</pc>
+            <w lemma="quam" pos="d--------">quam</w>
+            <w lemma="ars" pos="n-s---fa-">artem</w>
+            <w lemma="ratiocinor" pos="v-s-g-ng-">ratiocinandi</w>
+            <w lemma="edoceo" pos="v3sria---">edocuit</w><pc type="period">.</pc>
             </s>
           </p>
-          <p>
-            <s>
+          <p xml:id="lattb.14247">
+            <s xml:id="lattb.14247.1">
               <name type="pers" ref="http://ark.bnf.fr/ark:/12148/cb12205314h">
                 <w lemma="Zeno" pos="n-s---mn-">Zeno</w>
                 <w lemma="" pos="">
@@ -449,15 +449,13 @@
               <w lemma="floreo" pos="v3sria---">floruit</w>
               <pc type="period">.</pc>
             </s>
-            <s>
-              <name type="pers" ref="http://viaf.org/viaf/265285548">
-                <w lemma="Chryssipus" pos="n-s---ma-">
-                  <choice>
-                    <sic>Chrisipum</sic>
-                    <corr>Chrysippum</corr>
-                  </choice>
-                </w>
-              </name>
+            <s xml:id="lattb.14247.2">
+              <w lemma="Chryssipus" pos="n-s---ma-">
+                <choice>
+                  <sic>Chrisipum</sic>
+                  <corr>Chrysippum</corr>
+                </choice>
+              </w>
               <w lemma="dialecticus" pos="n-p---mg-">Dialecticorum</w>
               <w lemma="omnis" pos="a-p---mg-">omnium</w>
               <w lemma="princeps" pos="n-s---ma-">principem</w>
@@ -465,8 +463,7 @@
               <w lemma="talis" pos="a-s---fb-">tali</w>
               <w lemma="schola" pos="n-s---fb-">schola</w>
               <w lemma="orior" pos="v-srppma-">ortum</w>
-              <w lemma="scio" pos="v1ppia---">scimus</w>
-              <pc type="semicolon">;</pc>
+              <w lemma="scio" pos="v1ppia---">scimus</w><pc type="semicolon">;</pc>
               <w lemma="verum" pos="d-------p">verum</w>
               <w lemma="is" pos="p-s---mg-">ejus</w>
               <w lemma="doctrina" pos="n-s---fn-">doctrina</w>
@@ -480,74 +477,42 @@
               <w lemma="et" pos="c--------">et</w>
               <w lemma="undecim" pos="m--------">undecim</w>
               <w lemma="liber" pos="n-p---ma-">libros</w>
-              <w lemma="distribuo" pos="v-srppfn-">distributa</w>
-              <pc type="comma">,</pc>
-              <w lemma="argutus" pos="a-s---map">argutum</w>
-              <pc type="comma">,</pc>
+              <w lemma="distribuo" pos="v-srppfn-">distributa</w><pc type="comma">,</pc>
+              <w lemma="argutus" pos="a-s---map">argutum</w><pc type="comma">,</pc>
               <w lemma="et" pos="c--------">et</w>
               <w lemma="sophisticus" pos="a-s---ma-">sophisticum</w>
               <w lemma="homo" pos="v3spia---">hominem</w>
-              <w lemma="demonstro" pos="v3spia---">demonstrat</w>
-              <pc type="period">.</pc>
+              <w lemma="demonstro" pos="v3spia---">demonstrat</w><pc type="period">.</pc>
             </s>
-            <s>
+            <s xml:id="lattb.14247.3">
               <w lemma="ibi" pos="d--------">Ibi</w>
               <w lemma="de" pos="r--------">de</w>
               <w lemma="origo" pos="n-s---fb-">origine</w>
-              <w lemma="idea" pos="n-p---fg-">idearum</w>
-              <pc type="comma">,</pc>
+              <w lemma="idea" pos="n-p---fg-">idearum</w><pc type="comma">,</pc>
               <w lemma="de" pos="r--------">de</w>
-              <w lemma="proprietas" pos="n-s---fb-">
-                <choice>
-                  <sic>propietate</sic>
-                  <corr>proprietate</corr>
-                </choice>
-              </w>
-              <w lemma="vox" pos="n-p---fg-">vocum</w>
-              <pc type="comma">,</pc>
+              <w lemma="proprietas" pos="n-s---fb-"><choice><sic>propietate</sic><corr>proprietate</corr></choice></w>
+              <w lemma="vox" pos="n-p---fg-">vocum</w><pc type="comma">,</pc>
               <w lemma="de" pos="r--------">de</w>
-              <w lemma="definitio" pos="n-p---fb-">definitionibus</w>
-              <pc type="comma">,</pc>
+              <w lemma="definitio" pos="n-p---fb-">definitionibus</w><pc type="comma">,</pc>
               <w lemma="et" pos="c--------">et</w>
-              <w lemma="divisio" pos="n-p---fb-">
-                <choice>
-                  <sic>divitionibus</sic>
-                  <corr>divisionibus</corr>
-                </choice>
-              </w>
-              <pc type="comma">,</pc>
+              <w lemma="divisio" pos="n-p---fb-"><choice><sic>divitionibus</sic><corr>divisionibus</corr></choice></w><pc type="comma">,</pc>
               <w lemma="non" pos="d--------">non</w>
               <w lemma="inepte" pos="d-------p">inepte</w>
-              <w lemma="scribo" pos="v3sria---">scripsit</w>
-              <pc type="period">.</pc>
+              <w lemma="scribo" pos="v3sria---">scripsit</w><pc type="period">.</pc>
             </s>
           </p>
-          <p>
-            <s>
-              <w lemma="stoicus" pos="a-p---mnp">Stoici</w>
-              <pc type="comma">,</pc>
+          <p xml:id="lattb.14248">
+            <s xml:id="lattb.14248.1">
+              <w lemma="stoicus" pos="a-p---mnp">Stoici</w><pc type="comma">,</pc>
               <w lemma="in" pos="r--------">in</w>
               <w lemma="arbitrarius" pos="a-s---fb-">arbitraria</w>
               <w lemma="inventio" pos="n-s---fb-">inventione</w>
-              <w lemma="verbum" pos="n-p---ng-">verborum</w>
-              <pc type="comma">,</pc>
+              <w lemma="verbum" pos="n-p---ng-">verborum</w><pc type="comma">,</pc>
               <w lemma="in" pos="r--------">in</w>
-              <w lemma="conjunctio" pos="n-s---fb-">
-                <choice>
-                  <sic>conjuntione</sic>
-                  <corr>conjunctione</corr>
-                </choice>
-              </w>
-              <w lemma="grammatica" pos="n-s---fg-">Grammaticae</w>
-              <pc type="comma">,</pc>
+              <w lemma="conjunctio" pos="n-s---fb-"><choice><sic>conjuntione</sic><corr>conjunctione</corr></choice></w>
+              <w lemma="grammatica" pos="n-s---fg-">Grammaticae</w><pc type="comma">,</pc>
               <w lemma="et" pos="c--------">et</w>
-              <w lemma="rhetorica" pos="n-s---fg-">
-                <choice>
-                  <sic>Rectoricae</sic>
-                  <corr>Rhetoricae</corr>
-                </choice>
-              </w>
-              <pc type="comma">,</pc>
+              <w lemma="rhetorica" pos="n-s---fg-"><choice><sic>Rectoricae</sic><corr>Rhetoricae</corr></choice></w><pc type="comma">,</pc>
               <w lemma="et" pos="c--------">et</w>
               <w lemma="in" pos="r--------">in</w>
               <w lemma="eo" pos="d--------">eo</w>
@@ -555,25 +520,20 @@
               <w lemma="systema" pos="n-s---nn-">systema</w>
               <w lemma="doctrina" pos="n-s---fg-">doctrinae</w>
               <w lemma="non" pos="d--------">non</w>
-              <w lemma="propono" pos="v3pria---">proposuerunt</w>
-              <pc type="comma">,</pc>
+              <w lemma="propono" pos="v3pria---">proposuerunt</w><pc type="comma">,</pc>
               <w lemma="neque" pos="c--------">nec</w>
-              <w lemma="ratio" pos="n-s---fb-">ratione</w>
-              <pc type="comma">,</pc>
+              <w lemma="ratio" pos="n-s---fb-">ratione</w><pc type="comma">,</pc>
               <w lemma="sed" pos="c--------">sed</w>
               <w lemma="ostentatio" pos="n-s---fb-">ostentatione</w>
-              <w lemma="res" pos="n-p---fa-">res</w>
-              <pc type="comma">,</pc>
+              <w lemma="res" pos="n-p---fa-">res</w>   <pc type="comma">,</pc>
               <w lemma="incredibilis" pos="a-p---fa-">incredibiles</w>
-              <w lemma="exagito" pos="v3piia---">exagitabant</w>
-              <pc type="comma">,</pc>
+              <w lemma="exagito" pos="v3piia---">exagitabant</w><pc type="comma">,</pc>
               <w lemma="frequentius" pos="d-------c">frequentius</w>
-              <w lemma="pecco" pos="v3pria---">peccarunt</w>
-              <pc type="period">.</pc>
+              <w lemma="pecco" pos="v3pria---">peccarunt</w><pc type="period">.</pc>
             </s>	  
           </p>
-          <p>
-            <s>
+          <p xml:id="lattb.14315">
+            <s xml:id="lattb.14315.1">
               <w lemma="Epicurus" pos="n-s---mn-">Epicurus</w>
               <w lemma="atheniensis" pos="a-s---mnp">Atheniensis</w>
               <pc type="comma">,</pc>
@@ -638,7 +598,7 @@
               <w lemma="significo" pos="v3spsa---">significet</w>
               <pc type="period">.</pc>
             </s>
-            <s>
+            <s xml:id="lattb.14315.2">
               <w lemma="omnis" pos="a-s---fn-">Omnis</w>
               <w lemma="veritas" pos="n-s---fn-">veritas</w>
               <pc type="comma">,</pc>
@@ -674,7 +634,7 @@
               <w lemma="enuntio" pos="v-srppfg-">enuntiatae</w>
               <pc type="period">.</pc>
             </s>
-            <s>
+            <s xml:id="lattb.14315.3">
               <w lemma="omnis" pos="a-p---fn-">Omnes</w>
               <w lemma="res" pos="n-p---fn-">res</w>
               <pc type="comma">,</pc>
@@ -698,7 +658,7 @@
               <w lemma="consuetudo" pos="n-s---fa-">consuetudinem</w>
               <pc type="period">.</pc>
             </s>
-            <s>
+            <s xml:id="lattb.14315.4">
               <w lemma="ad" pos="r--------">Ad</w>
               <w lemma="is" pos="p-p---fa-">eas</w>
               <w lemma="comparo" pos="v-p-g-fa-">comparandas</w>
@@ -711,7 +671,7 @@
               <w lemma="judico" pos="v-s-g-mg-">judicandi</w>
               <pc type="period">.</pc>
             </s>
-            <s>
+            <s xml:id="lattb.14315.5">
               <w lemma="naturalis" pos="a-p---fn-">Naturales</w>
               <w lemma="percipio" pos="v3ppip---">percipiuntur</w>
               <w lemma="ab" pos="r--------">a</w>
@@ -727,7 +687,7 @@
               </w>
               <pc type="period">.</pc>
             </s>
-            <s>
+            <s xml:id="lattb.14315.6">
               <w lemma="" pos="">Sensus</w>
               <w lemma="numquam" pos="d-------">numquam</w>
               <w lemma="fallo" pos="v3spip---">
@@ -746,7 +706,7 @@
               <w lemma="sensus" pos="n-s---md-">sensui</w>
               <pc type="period">.</pc>
             </s>
-            <s>
+            <s xml:id="lattb.14315.7">
               <w lemma="voluptas" pos="n-s---fn-">Voluptas</w>
               <w lemma="amplector" pos="v3spip---">amplectitur</w>
               <pc type="comma">,</pc>
