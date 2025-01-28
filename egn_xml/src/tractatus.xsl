@@ -50,7 +50,7 @@
       </xsl:copy>
    </xsl:template>
    
-   <xsl:template match="teiHeader|front|corr|expan|back "/>
+   <xsl:template match="teiHeader|front|sic|expan|back "/>
    
    <xsl:template match="pc[@type='hyphenation']"/>
    
