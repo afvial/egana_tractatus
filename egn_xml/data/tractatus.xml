@@ -855,7 +855,7 @@
 							<w lemma="floreo" pos="v3sria---">floruit</w>
 							<w lemma="" pos="">Franciscus</w>
 							<w lemma="" pos="">Bacon</w>
-							<w lemma="" pos="">de</w>
+							<w lemma="de" pos="r--------">de</w>
 							<w lemma="" pos="">Verulamio</w><pc type="comma">,</pc>
 							<w lemma="" pos="">Anglus</w><pc type="comma">,</pc>
 							<w lemma="" pos="">qui</w>
@@ -1502,7 +1502,6 @@
 					</p>
 				</div>
 			</div>
-      <div type="section" n="2"></div>
 		</body>
 		<back>
 		</back>
