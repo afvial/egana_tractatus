@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI>
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -85,7 +85,7 @@
 		<front>
 		</front>
 		<body>
-			<div type="section" n="1">
+			<div type="section" n="1"> <!--Elementa Logicae: Tam Antique, quam Recentioris-->
 				<head>
 					<w lemma="" pos="">Elementa</w>
 					<w lemma="" pos="">logicae</w>
@@ -94,7 +94,7 @@
 					<w lemma="" pos="">quam</w>
 					<w lemma="" pos="">recentioris</w><pc type="comma">.</pc>
 				</head>
-				<div type="subsection" n="1">
+				<div type="subsection" n="1"> <!--Brevis Historia Logicae-->
 					<head>
 						<w lemma="" pos="">Brevis</w>
 						<w lemma="" pos="">historia</w>
@@ -660,7 +660,7 @@
 						</s>
 					</p>
 				</div>
-				<div type="subsection" n="2">
+				<div type="subsection" n="2"> <!--De Logica Arabum et Christianorum-->
 					<head>
 						<w lemma="" pos="">De</w>
 						<w lemma="" pos="">Logica</w>
@@ -671,49 +671,49 @@
 					<p xml:id="lattb.14480">
 						<s xml:id="lattb.14480.1">
 							<w lemma="quamvis" pos="d--------">Quamvis</w>
-							<w lemma="christianus" pos="n-s---mg-">Christiani</w>
+							<w lemma="Christianus" pos="n-s---mg-">Christiani</w>
 							<w lemma="pater" pos="n-p---mn-">Patres</w>
 							<w lemma="logica" pos="n-s---fa-">Logicam</w>
-							<w lemma="" pos="">Aristotelicam</w>
+							<w lemma="Aristotelicus" pos="a-s---fap">Aristotelicam</w>
 							<w lemma="damno" pos="v3pisa--">damnarent</w><pc type="comma">,</pc>
 							<w lemma="is" pos="p-s---fa-">eam</w>
 							<w lemma="tamen" pos="d--------">tamen</w>
-							<w lemma="" pos="">sequebantur</w>
-							<w lemma="" pos="">mixta</w>
-							<w lemma="" pos="">cum</w>
-							<w lemma="" pos="">Platonica</w><pc type="comma">,</pc>
-							<w lemma="" pos="">et</w>
-							<w lemma="" pos="">Stoica</w><pc type="comma">,</pc>
-							<w lemma="" pos="">ad</w>
-							<w lemma="" pos="">Etnicos</w>
-							<w lemma="" pos="">convincendos</w><pc type="period">.</pc>
+							<w lemma="sequor" pos="v3piip---">sequebantur</w>
+							<w lemma="mixta" pos="v-srppfap">mixta</w>
+							<w lemma="cum" pos="c--------">cum</w>
+							<w lemma="Platonicus" pos="a-s---fbp">Platonica</w><pc type="comma">,</pc>
+							<w lemma="et" pos="c--------">et</w>
+							<w lemma="Stoicus" pos="a-s---fbp">Stoica</w><pc type="comma">,</pc>
+							<w lemma="ad" pos="r--------">ad</w>
+							<w lemma="ethnicus" pos="n-p---ma-"><choice><sic>Etnicos</sic><corr>Ethnicos</corr></choice></w>
+							<w lemma="convinco" pos="v-p-g-ma-">convincendos</w><pc type="period">.</pc>
 						</s>
 						<s xml:id="lattb.14480.2">
-							<w lemma="" pos="">Tamdem</w>
-							<w lemma="" pos="">a</w>
-							<w lemma="" pos="">saeculo</w>
-							<w lemma="" pos="">septimo</w><pc type="comma">,</pc>
-							<w lemma="" pos="">usque</w>
-							<w lemma="" pos="">ad</w>
-							<w lemma="" pos="">saeculum</w>
-							<w lemma="" pos="">duodecimum</w>
-							<w lemma="" pos="">tantum</w>
-							<w lemma="" pos="">floruit</w>
-							<w lemma="" pos="">Aristoteles</w><pc type="comma">,</pc>
-							<w lemma="" pos="">quem</w>
-							<w lemma="" pos="">saeculo</w>
-							<w lemma="" pos="">octavo</w>
-							<w lemma="" pos="">Arabes</w>
-							<w lemma="" pos="">in</w>
-							<w lemma="" pos="">vernaculum</w>
-							<w lemma="" pos="">sermonem</w>
-							<w lemma="" pos="">verterunt</w><pc type="semicolon">;</pc>
-							<w lemma="" pos="">sed</w>
-							<w lemma="" pos="">ignari</w>
-							<w lemma="" pos="">Graecarum</w>
-							<w lemma="" pos="">litterarum</w><pc type="comma">,</pc>
-							<w lemma="" pos="">improve</w>
-							<w lemma="" pos="">fecerunt</w><pc type="period">.</pc>
+							<w lemma="tandem" pos="d--------"><choice><sic>Tamdem</sic><corr>Tandem</corr></choice></w>
+							<w lemma="ab" pos="r--------">a</w>
+							<w lemma="saeculum" pos="n-s---nb-">saeculo</w>
+							<w lemma="septimus" pos="a-s---nb-">septimo</w><pc type="comma">,</pc>
+							<w lemma="usque" pos="d--------">usque</w>
+							<w lemma="ad" pos="r--------">ad</w>
+							<w lemma="saeculum" pos="n-s---na-">saeculum</w>
+							<w lemma="duodecimus" pos="a-s---na-">duodecimum</w>
+							<w lemma="tantum" pos="d-------p">tantum</w>
+							<w lemma="floreo" pos="v3sria---">floruit</w>
+							<w lemma="Aristoteles" pos="n-s---mn-">Aristoteles</w><pc type="comma">,</pc>
+							<w lemma="qui" pos="p-s---ma-">quem</w>
+							<w lemma="saeculum" pos="n-s---nb-">saeculo</w>
+							<w lemma="octavum" pos="a-s---nb-">octavo</w>
+							<w lemma="Arabs" pos="n-p---mn">Arabes</w>
+							<w lemma="in" pos="r--------">in</w>
+							<w lemma="vernaculus" pos="a-s---ma-">vernaculum</w>
+							<w lemma="sermo" pos="n-s---ma-">sermonem</w>
+							<w lemma="verto" pos="v3pria---">verterunt</w><pc type="semicolon">;</pc>
+							<w lemma="sed" pos="c--------">sed</w>
+							<w lemma="ignarus" pos="a-p---mn-">ignari</w>
+							<w lemma="Graecus" pos="a-p---fgp">Graecarum</w>
+							<w lemma="littera" pos="n-p---fg-">litterarum</w><pc type="comma">,</pc>
+							<w lemma="improbus" pos="d--------"><choice><sic>improve</sic><corr>improbe</corr></choice></w>
+							<w lemma="facio" pos="v3pria---">fecerunt</w><pc type="period">.</pc>
 						</s>
 					</p>
 					<p xml:id="lattb.14872">

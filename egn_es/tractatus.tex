@@ -1,73 +1,87 @@
 \documentclass{article}
+%\usepackage[provide=*]{babel}
 \usepackage{paracol}
-% \footnotelayout{m}
-\usepackage{lipsum}
+%\twosided[pc]
+% \footnotelayout{p}
+%\usepackage{lipsum}
 \usepackage[spanish]{babel}
-\usepackage{geometry}
-\geometry{
-  left=30mm,
-  right=30mm
-}
+\usepackage[twoside]{geometry}
+\usepackage{sectsty}
+\geometry{left=20mm, right=20mm}
 \tolerance=1
 \emergencystretch=\maxdimen
 \hyphenpenalty=10000
 \hbadness=10000
+\sectionfont{\fontsize{12}{15}\selectfont}
+\subsectionfont{\fontsize{10}{15}\selectfont}
 
 \begin{document}
-\setlength{\columnsep}{2em}
-\begin{paracol}{2} 
+\begin{paracol}{2} % 
+  \begin{nthcolumn*}{0} % Título [la]
+    \subsection*{\centering CAPVT }
+    \subsection*{\centering } 
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % Título [es]
+    \subsection*{\centering CAPÍTULO III}
+    \subsection*{\centering El origen de la lógica entre los griegos} 
+  \end{nthcolumn}
+\vspace{0.5cm}
+\begin{nthcolumn*}{0} % I.a [la]
   Logica ab \emph{incunabalis}\footnote{incunabulis} eo laborabat, ut homines frequentius de verbis \emph{insignificantibus}\footnote{in-significo}, de \emph{inexactis}\footnote{in-exigo} definitionibus, et arbitrariis distinctionibus aeterne disputarent. Hinc orti Sophistae, quorum vana verborum ostentatio in subtilibus, et inutilibus quaestionibus mortales defatigabat: \emph{equaliter}\footnote{aequaliter} \emph{extrenui}\footnote{ } ad veritatem, quam ad falsitatem sustinendam. Hujus generis Zenonem, \emph{Eleatem}\footnote{ } primum Historia prodiit. \emph{Coaevus}\footnote{coevus} fuit Socratis vir summo acumine, et \emph{probitate}\footnote{provitate} praeditus, qui \emph{frequentissimis}\footnote{frequentisimis} interrogationibus, et intima principiorum inductione homines ad veritatem confitendam ducebat. Primo ex adversariorum responsionibus consequentias deducebat. Secundo ad ambiguitatem tollendam, vocabula definiebat.
-  \switchcolumn  
+\end{nthcolumn*}
+\vspace{0.5cm}
+\begin{nthcolumn}{1} % I.a [es]
   En un principio, la lógica trabajaba a fin de que un mayor número de hombres disputaran eternamente sobre palabras insignificantes, definiciones inexactas y distinciones arbitrarias. Surgieron de aquí los Sofistas, quienes la exhibición vana de las palabras, en preguntas sutiles e inútiles, fatigaba a los mortales. De esa época surge Zenón, el primer Eleata en la Historia. Fue contemporáneo de Sócrates, hombre dotado con máximo talento y probidad, quien a los hombres con constantes preguntas y profunda búsqueda de los principios, guiaba para revelar la verdad. En primer lugar, deducía las consecuencias de las respuestas de sus adversarios. En segundo lugar, las palabras definía para superar la ambigüedad.
-\end{paracol}
-
+\end{nthcolumn}
 \vspace{0.5cm}
-
-\begin{paracol}{2}
+\begin{nthcolumn*}{0} % I.a [la]
 A Socrate, Academici, Megarici, \emph{Cyrenaici}\footnote, \emph{Peripatetici}\footnote{Peripathetici}, et Stoici prodiderunt. Plato fuit Academicorum Parens, qui res dividebat, definiebat et exacte nominabat ad deducendam veritatem. Euclides Megaricorum conditor \emph{rixanti}\footnote{rixandi} viam aperuit, ob fallacias in assidua disputatione introductas \emph{Aristippus}\footnote{Aristipus} Scholae \emph{Cyrenae}\footnote{cirenaicae} \emph{auctor}\footnote{autor}, \emph{criterium}\footnote{not found} veritatis in \emph{affectionibus}\footnote{afectionibus} animae, sive in sensu doloris, et voluptatis imposuerat.
-\switchcolumn
+\end{nthcolumn*}
+\vspace{0.5cm}
+\begin{nthcolumn}{1} % [es]
 Luego de Sócrates surgieron los Académicos, Megáricos, Cirenaicos, Peripatéticos y Estoicos. Platón fue padre de los Académicos, quien las cosas dividía, definía y exactamente llamaba para la verdad deducir. Euclides, fundador polémico de los Megáricos, una vía abrió justo antes que las falacias introducidas [por] Aristipo, autor de la Escuela de cirene, en una asidua disputa, impusiera el criterio de verdad en las afecciones del alma o en la sensación de dolor o de placer.
-\end{paracol}
-
+\end{nthcolumn}
 \vspace{0.5cm}
-
-\begin{paracol}{2}
+\begin{nthcolumn*}{0} % I.a [la]
 Aristoteles \emph{subtilissimi}\footnote{subtilisimi}, et optimi vir ingenii, centum viginti libros de re logica scripsit, quorum vix adsunt quatuordecim. In primo de \emph{categoria}\footnote{cathegoria}, sive de ideis ad ordinem reducendis tractat. Secundo \emph{Perihermenias}\footnote{Perhiermenias}, sive de vi nominum et verborum. Duo priorum analyticorum, sive de \emph{syllogismo}\footnote{sillogismo} generatim. Duo posteriorum analyticorum de \emph{syllogismo}\footnote{sillogismo} demostrativo. Octo Topicorum, sive loca argumentorum ad \emph{probabilia}\footnote{provabilia} quaeque \emph{probanda}\footnote{provanda}. Duo etiam de sophismatibus. Scopum Aristotelis est syllogismi efformatio; docendo ordinem idearum, \emph{proprietates}\footnote{propietates} nominum, vocabula quae universales, et particulares ideas designent, et modum copulandi propositiones: sed peccabat in vocabulis pro libitu utendis absque eorum definitione; in nenias explicandas, nec attingit criterium veritatis: et ita \emph{Peripatetici}\footnote{Peripathetici} non ex natura rei, sed ex regulis artis, consequentias deducebant. Peccabat etiam, quod longius, et obscurius esset in regulis \emph{syllogismorum}\footnote{sillogismorum} producendis. Uno verbo potius Grammaticam \emph{Philosophicam}\footnote{Filosophicam}, quam artem ratiocinandi edocuit.
-\switchcolumn
+\end{nthcolumn*}
+\vspace{0.5cm}
+\begin{nthcolumn}{1} % I.a [es]
 Aristóteles, hombre de un ingenio fino (delicado) y óptimo, escribió ciento veinte libros sobre la cosa lógica, de los cuales solamente nos han llegado catorce. En el primero trata acerca de la categoría o de las ideas para agrupar en orden. En el segundo, Perihermenias, o sobre el poder de los nombre y de las palabras. Dos [libros] de los primeros analíticos o sobre el silogismo en general. Dos de los analíticos posteriores acerca del silogismo demonstrativo. Ocho de los Tópicos o sobre los lugares de los argumentos para cada una de las [alternativas] posibles evaluar. Dos también acerca de los sofismas. El objetivo de Aristóteles es la forma del silogismo: mostrando [enseñando] el orden de las ideas, las propiedades de los nombres, las palabras que designan ideas universales y particulares, y el modo de unir proposiciones; 
-\end{paracol}
-
+\end{nthcolumn}
 \vspace{0.5cm}
-
-\begin{paracol}{2}
-  \textbf{De Logica Arabum et Cristianorum}
-  \switchcolumn
-  
-\end{paracol}
+\begin{nthcolumn*}{0} % I.a [la]
+  \subsection*{\centering De Logica Arabum et Cristianorum}
+\end{nthcolumn*}
 \vspace{0.5cm}
-\begin{paracol}{2}
+\begin{nthcolumn}{1} % Título [es]
+  \subsection*{\centering Sobre la Lógica de los Árabes y Cristianos}
+\end{nthcolumn}
+\vspace{0.5cm}
+\begin{nthcolumn*}{0} % I.a [la]
   Quamvis Christiani Patres Logicam Aristotelicam damnarent, eam tamen sequebantur mixta cum Platonica, et Stoica, ad Etnicos convincendos. Tamdem a saeculo septimo, usque ad saeculum duodecimum tantum floruit Aristoteles, quem saeculo octavo Arabes in vernaculum sermonem verterunt; sed ignari Graecarum litterarum, improve fecerunt.
-  \switchcolumn
-  
-\end{paracol}
+\end{nthcolumn*}
 \vspace{0.5cm}
-\begin{paracol}{2}
+\begin{nthcolumn}{1} % I.a [es]
+  Aunque los Padres del Cristianismo condenaban la Lógica Aristotélica, sin embargo, la seguían [usando], mezclada con la Platónica y la Estoica, para convencer a los Paganos. Finalmente, desde el siglo VII hasta el siglo XII, Aristóteles floreció solo, a quien en el siglo VIII los árabes tradujeron a la lengua vernácula; pero, ignorantes de la literatura griega, lo hicieron de manera deficiente.
+\end{nthcolumn}
+\vspace{0.5cm}
+\begin{nthcolumn*}{0} % I.a [la]
   Ab his Scholatici, seu christiani Philosofi Occidentis, Aristotelem acceperunt: sed ex nimio, et inutili Dialecticae, et Methaficicae studio, Logicam obscuriorem crearunt, quam neque Aristoteles excogitavit. Nulla de arte critica et de criterio veritatis praecepta tradiderunt. In proemialibus signis praedicabilibus, cathegoriis, modalibus arte inveniendi medium, vocabulis insignificantibus, et in regulis aeternae disputandi, artem converterunt: quod ita remansit, usque ad initium saeculi decimi sexti\footnote{.../lattb.14872}.
-  \switchcolumn
+\end{nthcolumn*}
+\vspace{0.5cm}
+\begin{nthcolumn}{1} % I.a [es]
   Debido a ellos\footnote{... se refiere, me parece, a los árabes del párrafo anterior}, los escolásticos o Filósofos Cristianos de Occidente a Aristóteles aceptaron, pero a causa del excesivo e inútil estudio de la Dialéctica y de la Metafísica, crearon una lógica más oscura, que ni si quiera Aristóteles pensó. Ninguna enseñanza sobre el arte crítico o criterio de verdad entregaron. En sus prefacios, el arte (lógico) convirtieron en signos predicativos, categorías, silogismos modales\footnote{... así es la traducción que hacen los portugueses de Verney del término \emph{modalibus}.}, palabras insignificantes, y en reglas de un eterno disputar: lo cual continuó así hasta el inicio del siglo XVI.
-\end{paracol}
+\end{nthcolumn}
 \vspace{0.5cm}
-\begin{paracol}{2}
+\begin{nthcolumn*}{0} % I.a [la]
   Tunc Laurentius Valla, Rodolfus Agricola, Ludovicus Vives, Marius Nizolius, scholasticorum ineptias comdemnarunt. Sed prae caeteris, Petrus Ramus post impugnatum Aristotelem \emph{Dialecticas instituciones} inscripsit, ubi Logicam partitur, in inventionem, et judicium; sive in inveniendis argumentis, et eorum dispositione: de speciebus argumentorum accurata methodo scripsit, quamvis criticam non explicavit, nec neglexit obscura Peripatheticorum vocabula, et alia hujusmodi.
-  \switchcolumn
-  Luego Lorenzo Valla\footnote{...Q214115}, Rodolphus Agricola\footnote{...Q365557}, Juan Luis Vives\footnote{...Q316357}, Mario Nizolio\footnote{...Q352573}, condenaron las ineptitudes de los escolasticos. 
-  
-\end{paracol}
+\end{nthcolumn*}
 \vspace{0.5cm}
-\begin{paracol}{2}
-
-  \switchcolumn
-  
+\begin{nthcolumn}{1} % I.a [es]
+  Luego Lorenzo Valla\footnote{...Q214115}, Rodolphus Agricola\footnote{...Q365557}, Juan Luis Vives\footnote{...Q316357}, Mario Nizolio\footnote{...Q352573}, condenaron las ineptitudes de los escolasticos. 
+\end{nthcolumn}
+\vspace{0.5cm}
 \end{paracol}
-
 \end{document}
