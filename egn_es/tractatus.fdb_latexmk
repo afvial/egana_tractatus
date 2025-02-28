@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1740652982 "/home/afvial/Documents/filosofía/egaña/tractatus/files/egn_es/tractatus.tex" "tractatus.pdf" "tractatus" 1740652983 0
+["pdflatex"] 1740728270 "/home/afvial/Documents/filosofía/egaña/tractatus/files/egn_es/tractatus.tex" "tractatus.pdf" "tractatus" 1740728272 0
   "/etc/texmf/web2c/texmf.cnf" 1734259159 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/afvial/Documents/filosofía/egaña/tractatus/files/egn_es/tractatus.tex" 1740652981 9940 d3409613535499de092b5f287429705e ""
+  "/home/afvial/Documents/filosofía/egaña/tractatus/files/egn_es/tractatus.tex" 1740728271 9949 dd031c1572db45c15fa53142f190feab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -39,8 +39,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1736184511 4519902 5f6badc38fca1d71e50ecc8d814e7c3f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1738488927 6526860 9fdcddf1708106caf3de06e9f19da539 ""
-  "tractatus.aux" 1740652983 194 d12d2f42a1ce5499c2e0a2e2f9926e09 "pdflatex"
-  "tractatus.tex" 1740652981 9940 d3409613535499de092b5f287429705e ""
+  "tractatus.aux" 1740728271 194 d12d2f42a1ce5499c2e0a2e2f9926e09 "pdflatex"
+  "tractatus.tex" 1740728271 9949 dd031c1572db45c15fa53142f190feab ""
   (generated)
   "tractatus.aux"
   "tractatus.log"
